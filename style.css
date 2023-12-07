@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20em;
+    border: 1px solid white;
+    width: 30em;
+    background-color: black;
+    color: white;
+}
+
+label{
+    position: relative;
+    right: 7em;
+    margin: 10px;
+    font-size: 20px;
+}
+
+input[type='number']{
+padding: 0px 0px 0px 5px;
+font-size: 20px;
+margin: 10px;
+}
+
+input[type='submit']{
+   border: 1 solid white;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
